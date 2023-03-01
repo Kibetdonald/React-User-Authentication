@@ -1,0 +1,71 @@
+.SignUpPage {
+    background-image: url("../../Assets/Images/splash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.signup-form {
+    width: 40%;
+    margin: auto;
+    background-color: #fff;
+}
+.btn-createAccount {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #60223b;
+    font-weight: 600;
+    border-color: #60224b;
+    border: 0px;
+    width: 100%;
+    color: #fff;
+    border-radius: 4px;
+}
+.sucessAlert{
+    background: #d3fbeb;
+    border-color: #10bf7a;
+    color: #0c905c;
+    border-radius: 5px;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    list-style: none;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+}
+.btn-reset {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    font-weight: 600;
+    border-color: #60223b;
+    width: 100%;
+    color: #60224b;
+    border-radius: 4px;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+  .backArrow{
+    margin-left: 10%;
+    width: 20px;
+    font-size: 80px !important;
+    width: 35px;
+    position: absolute;
+    color: #60224b;
+  }
+  .portalLogo2 {
+    margin: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
